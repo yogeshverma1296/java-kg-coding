@@ -7,7 +7,7 @@ public class LeapYear {
         Scanner input= new Scanner(System.in);
         System.out.println("Enter Year Value to check Leap Year or Not = ");
         int year = input.nextInt();
-        if(year % 4 == 0 || year % 400 == 0){
+        if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)){
             System.out.println("Year is Leap Year = "+year);
         }
         else{

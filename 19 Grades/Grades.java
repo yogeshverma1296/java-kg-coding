@@ -10,19 +10,19 @@ public class Grades {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Marks = ");
         double marks = sc.nextDouble();
-        if(marks>90){
+        if(marks >= 90){
             System.out.println("Grade is A for Marks = "+marks);
         }
-        else if(marks>75){
+        else if(marks >= 75){
             System.out.println("Grade is B for Marks = "+marks);
         }
-        else if(marks>60){
+        else if(marks >= 60){
             System.out.println("Grade is C for Marks = "+marks);
         }
-        else if(marks>30){
+        else if(marks >= 30){
             System.out.println("Grade is D for Marks = "+marks);
         }
-        else if(marks<30){
+        else if(marks < 30){
             System.out.println("Grade is F for Marks = "+marks);
         }
         else{
