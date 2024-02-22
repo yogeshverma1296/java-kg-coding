@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Main {
+public class ProductOfTwoFloating {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Value of Float 1 = ");

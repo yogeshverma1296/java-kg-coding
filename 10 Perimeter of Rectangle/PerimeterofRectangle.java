@@ -2,7 +2,7 @@
 //Perimeter of rectangle ABCD = A+B+C+D
 import java.util.Scanner;
 
-public class Main {
+public class PerimeterofRectangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter Value of A = ");
