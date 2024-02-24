@@ -7,11 +7,13 @@ public class BitwiseEvenOdd {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Number = ");
         int number = input.nextInt();
-        System.out.println("How much you want to Right Shift, Enter Number = ");
-        int shift = input.nextInt();
-        //right shift bitwise operator
-        System.out.println("Right Shift of No " + number + " by " + shift + " is = " + (number>>shift));
-
+        // Number Even Odd
+        if((number & 1) == 0){
+            System.out.println("Number is Even = "+number);
+        }
+        else{
+            System.out.println("Number is Odd = "+number);
+        }
         input.close();
     }
 }
