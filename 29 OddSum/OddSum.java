@@ -13,6 +13,11 @@ public class OddSum {
                 sum+=i;
             }
         }
+        // Alternative Logic ->
+        // while(i <= N){
+        //      sum += i;
+        //      i += 2;
+        // }
         System.out.println("Sum of Odd Numbers = "+sum);
         input.close();
     }
